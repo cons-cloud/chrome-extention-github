@@ -1,0 +1,122 @@
+/* Reset de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+header {
+  background: #0073e6;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+main {
+  padding: 20px;
+}
+
+.scan-button {
+  width: 100%;
+  padding: 12px;
+  background: #0073e6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.scan-button:hover {
+  background: #005bb5;
+}
+
+.results-container {
+  margin-top: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.results-container div {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.results-container div:last-child {
+  border-bottom: none;
+}
+
+.results-container p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.results-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.download-button {
+    width: 100%;
+    padding: 12px;
+    background: #28a745; /* Couleur verte */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .download-button:hover {
+    background: #218838; /* Couleur verte plus foncée au survol */
+  }
+  
+  .download-button:disabled {
+    background: #6c757d; /* Couleur grise lorsque désactivé */
+    cursor: not-allowed;
+  }
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #f4f4f9;
+  font-size: 12px;
+  color: #666;
+}
